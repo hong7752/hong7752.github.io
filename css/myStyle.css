@@ -1,0 +1,26 @@
+.dropdown-menu li:hover .sub-menu {
+    /* 導覽列選單滑動 */
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.gotop:hover {
+    /* 滑鼠移到Top */
+    opacity: 1.0;
+}
+
+.gotop {
+    /* Top觸發事件 */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    font-size: 24px;
+    background: rgb(90, 87, 87);
+    cursor: pointer;
+    border-radius: 20%;
+    opacity: 0.5;
+}
