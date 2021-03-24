@@ -1,9 +1,7 @@
-//圖片輪播
 $(document).ready(function () {
     $('#carouselExampleIndicators').carousel({ interval: 4000 });
 });
 
-//進度條
 window.addEventListener('scroll', () => {
     moveBar('#e74c3c')
 })
