@@ -14,3 +14,8 @@ function moveBar(color = '#0984e3') {
     bar.style.width = w + '%'
     bar.style.background = color
 }
+
+function noMenuOne() {
+    return false;
+}
+document.oncontextmenu = noMenuOne;
